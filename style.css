@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar{
+
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 55px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(114, 113, 113);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  
+}
+.Coder{
+
+    font-size: 30px;
+    color:orange;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Coder:hover{
+
+    color: rgb(18, 236, 91);
+}
+.nav_links{
+
+    display: flex;
+    gap: 30px;
+}
+.hero-contact{
+
+    max-width: 800px;
+    padding: 36px;
+}
+.hero-contact h1{
+
+    font-size: 55px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    padding-bottom: 30px;
+    color:#fff;
+
+
+}
+.hero-contact p{
+
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+    color: rgb(253, 251, 251);
+    padding-bottom: 50px;
+}
+.nav_links a{
+
+    text-decoration: none;
+    font-size: 19px;
+    color: hsl(0, 0%, 100%);
+    transform: 0.3s ease;
+
+}
+
+.nav_links a:hover{
+
+
+    border-bottom: 2px solid rgb(252, 207, 11);
+    transition: 1ms ease;
+    color: orange;
+
+}
+
+
+.nav_links .active{
+
+    color: rgb(6, 213, 250);
+
+}
+.nav_links .active{
+    
+    border-bottom: 2px solid rgb(238, 243, 238);
+    transition: 0.2s ease;
+    align-items: center;
+    justify-content: baseline;
+}
+.hero{
+
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pexels-jeshoots-218863.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    color: #fdfcfc;
+
+}
+.button{
+
+    padding: 16px 32px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #007bff;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: 0.3s ease;
+    align-items: center;
+    justify-content: center;
+
+}
+.button:hover{
+
+    background:rgba(0, 217, 255, 0.63);
+}
+.Contactas{
+
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    border-radius:5px;
+    border: none;
+    margin-left: 80px;
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+    transform: 0.3s ease;
+}
+.Contactas:hover{
+
+
+    background-color: black;
+    color: white;
+
+}
+.social{
+
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.hero.hero-contact .i{
+
+    padding: 16px 32px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #007bff;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: 0.3s ease;
+    align-items: center;
+    justify-content: center;
+
+
+}
